@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Unifor
- *
- */
-module JBburger {
-}
