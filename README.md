@@ -26,7 +26,7 @@ O sistema possui as seguintes funcionalidades:
 
 ## Requisitos atendidos
 
-O projeto atende aos seguintes requisitos do processo seletivo da Google:
+O projeto atende aos seguintes requisitos:
 
 | Requisito | Referência no código-fonte |
 | --------- | -------------------------- |
