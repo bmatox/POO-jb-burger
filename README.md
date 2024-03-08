@@ -8,20 +8,12 @@ O sistema permite cadastrar e consultar clientes, cardápios, pratos, bebidas e 
 
 ## Como executar
 
-Para executar o projeto, você precisa ter instalado o software Eclipse e o JDK (Java Development Kit) na sua máquina. Você também precisa baixar ou clonar o repositório do projeto no seu GitHub. Siga os passos abaixo:
+Para executar o projeto, siga os seguintes passos:
 
-- Abra o Eclipse e selecione a opção File > Import.
-- Na janela que se abre, escolha a opção Projects from Git e clique em Next.
-- Na próxima janela, escolha a opção Clone URI e clique em Next.
-- Na janela seguinte, cole o link do seu repositório do GitHub no campo URI e preencha os campos de autenticação, se necessário. Clique em Next.
-- Na próxima janela, selecione a branch main e clique em Next.
-- Na janela seguinte, escolha o diretório onde deseja salvar o projeto localmente e clique em Next.
-- Na última janela, escolha a opção Import as general project e clique em Finish.
-- Após importar o projeto, clique com o botão direito sobre ele na aba Project Explorer e selecione a opção Configure > Convert to Maven Project.
-- Aguarde o Eclipse baixar as dependências do projeto e atualizar o índice do Maven.
-- Para executar o projeto, clique com o botão direito sobre ele na aba Project Explorer e selecione a opção Run As > Java Application.
-- Na janela que se abre, escolha a classe Principal e clique em OK.
-- O sistema será executado no console do Eclipse e você poderá interagir com ele através de um menu de opções.
+- Baixe o código-fonte do projeto no GitHub, usando o comando `git clone https://github.com/bmatox/poo-jb-burger-java.git`.
+- Abra o software Eclipse e importe o projeto como um projeto Java existente.
+- Selecione a classe Principal.java e clique no botão Run para executar o projeto.
+- Siga as instruções que aparecem no console para interagir com o sistema.
 
 ## Funcionalidades
 
