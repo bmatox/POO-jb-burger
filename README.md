@@ -51,4 +51,6 @@ Contribuições são bem-vindas. Para contribuir:
 - Faça push para a branch (`git push origin feature/novaFeature`).
 - Abra um Pull Request.
 
+  Obrigado!
+
 
