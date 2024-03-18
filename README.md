@@ -1,32 +1,33 @@
 # JB Burger
 
-## Sobre o projeto
+## Sobre o Projeto
 
-Este é o projeto final da disciplina de Programação Orientada a Objetos em Java do curso de Ciência da Computação da UNIFOR. O tema escolhido foi o sistema de gerenciamento de uma hamburgueria, chamada JB Burger. O objetivo do projeto é demonstrar o uso de conceitos e técnicas de POO em Java, como classes, interfaces, herança, polimorfismo, arquivos, composição, agregação, encapsulamento e tratamento de exceções.
+Este projeto compõe a atividade final da disciplina de Programação Orientada a Objetos em Java do curso de Ciência da Computação da UNIFOR. O sistema de gerenciamento interno da hamburgueria JB Burger foi desenvolvido para aplicar conceitos de POO, como classes, interfaces, herança, encapsulamento e tratamento de exceções.
 
-O sistema permite cadastrar e consultar clientes, cardápios, pratos, bebidas e comandas. O sistema também permite gerar relatórios de vendas e estoque, além de salvar e recuperar os dados em arquivos de texto.
+O sistema gerencia operações diárias de uma hamburgueria, permitindo o cadastro de clientes, mesas, pedidos e itens do cardápio, além de imprimir comandas e gerenciar o fechamento de pedidos.
 
-## Como executar
+## Como Executar
 
-Para executar o projeto, siga os seguintes passos:
+Siga os passos abaixo para executar o projeto:
 
-- Baixe o código-fonte do projeto no GitHub, usando o comando `git clone https://github.com/bmatox/poo-jb-burger-java.git`.
-- Abra o software Eclipse e importe o projeto como um projeto Java existente.
-- Selecione a classe Principal.java e clique no botão Run para executar o projeto.
-- Siga as instruções que aparecem no console para interagir com o sistema.
+- Clone o repositório do projeto usando `git clone https://github.com/bmatox/poo-jb-burger-java.git`.
+- Abra o Eclipse e importe o projeto como um projeto Java existente.
+- Execute a classe `Principal.java` para iniciar o sistema.
+- Interaja com o sistema através do console seguindo as instruções exibidas.
 
 ## Funcionalidades
 
-O sistema possui as seguintes funcionalidades:
+O sistema oferece as seguintes funcionalidades:
 
-- Cadastrar e consultar clientes: o sistema permite inserir e buscar os dados dos clientes, como nome, telefone e endereço. Os clientes são armazenados em um ArrayList e em um arquivo de texto chamado clientes.txt.
-- Cadastrar e consultar cardápios: o sistema permite inserir e buscar os dados dos cardápios, como nome, descrição e preço. Os cardápios são divididos em duas subclasses: Prato e Bebida, que herdam da classe abstrata Cardapio. Os cardápios são armazenados em um ArrayList e em um arquivo de texto chamado cardapios.txt.
-- Cadastrar e consultar comandas: o sistema permite inserir e buscar os dados das comandas, que são as ordens de serviço dos clientes. As comandas implementam a interface Comanda, que define os métodos para calcular o valor total, o troco e a forma de pagamento. As comandas são compostas por itens de pedido, que são objetos da classe ItemPedido, que possui os atributos quantidade e cardapio. As comandas são armazenadas em um ArrayList e em um arquivo de texto chamado comandas.txt.
-- Gerar relatórios: o sistema permite gerar relatórios de vendas e estoque, mostrando as informações sobre as comandas, os cardápios e os clientes. Os relatórios são exibidos no console e também salvos em arquivos de texto chamados relatorioVendas.txt e relatorioEstoque.txt.
+- **Cadastro de Clientes**: Inserção e busca de clientes pelo nome.
+- **Gestão de Mesas**: Adição de mesas e alteração de seu estado (disponível/ocupada).
+- **Pedidos**: Criação de pedidos e associação a mesas, adição e remoção de itens do pedido.
+- **Comandas**: Impressão de comandas em arquivo de texto.
+- **Cardápio**: Cadastro de pratos e bebidas com detalhes como preço e ingredientes.
+- **Fechamento de Pedidos**: Encerramento de pedidos e liberação das mesas associadas.
+- **Remoção de Mesas Disponíveis**: Limpeza do registro de mesas disponíveis ao final do expediente.
 
-## Requisitos atendidos
-
-O projeto atende aos seguintes requisitos:
+## Requisitos Atendidos
 
 | Requisito | Referência no código-fonte |
 | --------- | -------------------------- |
@@ -39,3 +40,15 @@ O projeto atende aos seguintes requisitos:
 | Utilização de encapsulamento | O sistema utiliza os modificadores de acesso private, public e protected para controlar o acesso aos atributos e métodos das classes. O sistema também utiliza métodos getters e setters para acessar e modificar os atributos das classes. |
 | Tratamento de Exceptions | O sistema utiliza as classes Exception, IOException, NumberFormatException e InputMismatchException para tratar possíveis erros de entrada e saída de dados, conversão de tipos e entrada inválida do usuário. |
 | Uso de ArrayList | O sistema utiliza a classe ArrayList para armazenar os objetos das classes Cliente, Cardapio, Comanda e ItemPedido. |
+
+## Contribuições
+
+Contribuições são bem-vindas. Para contribuir:
+
+- Faça um fork do projeto.
+- Crie uma branch para sua feature (`git checkout -b feature/novaFeature`).
+- Faça commit das suas alterações (`git commit -am 'Adicionando novaFeature'`).
+- Faça push para a branch (`git push origin feature/novaFeature`).
+- Abra um Pull Request.
+
+
